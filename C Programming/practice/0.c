@@ -11,5 +11,5 @@ return 0;
 }
 float area(float r)
 {
-return pi * r * r;//sub program
+return 3.14 * r * r;//sub program
 }
