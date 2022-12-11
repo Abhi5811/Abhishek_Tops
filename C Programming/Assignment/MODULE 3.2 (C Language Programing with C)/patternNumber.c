@@ -1,6 +1,6 @@
 #include<stdio.h>
  
-int main() {
+void main() {
     int i, j, rows, count = 1;
  
     printf("Enter the number of rows\n");
@@ -13,5 +13,4 @@ int main() {
         }
         printf("\n");
     }
-    return(0);
 }

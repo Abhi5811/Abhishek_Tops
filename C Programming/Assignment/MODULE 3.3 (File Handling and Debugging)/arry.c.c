@@ -1,6 +1,6 @@
 #include <stdio.h>    
      
-int main()    
+void main()    
 {    
     //Initialize array     
     int arr[] = {25, 11, 7, 75, 56};      
@@ -18,5 +18,4 @@ int main()
            max = arr[i];    
     }      
     printf("Largest element present in given array: %d\n", max);    
-    return 0;    
 }    

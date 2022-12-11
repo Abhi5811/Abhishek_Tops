@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int sum = 0, n;
 int a = 0;
@@ -14,5 +14,4 @@ a = b; // swap elements
 b = sum;
 sum = a + b; // next term is the sum of the last two terms 
 }
-return 0;
 }

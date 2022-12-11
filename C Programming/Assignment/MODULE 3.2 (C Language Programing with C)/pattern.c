@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
    int i,j,n;
    printf("Enter how many rows you want : ");
@@ -13,5 +13,4 @@ int main()
     
     printf("\n");
    }
-   return 0;
 }

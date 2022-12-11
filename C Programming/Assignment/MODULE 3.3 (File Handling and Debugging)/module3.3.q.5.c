@@ -1,16 +1,16 @@
 #include <stdio.h>
-void reverseSentence();
-int main() {
-    printf("Enter a sentence: ");
-    reverseSentence();
-    return 0;
-}
+void reverse();
 
-void reverseSentence() {
+void reverse() 
+{
     char c;
     scanf("%c", &c);
     if (c != '\n') {
-        reverseSentence();
+        reverse();
         printf("%c", c);
     }
+}
+void main() {
+    printf("Enter a sentence: ");
+    reverse();
 }

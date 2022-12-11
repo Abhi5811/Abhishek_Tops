@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
    int i,j,n;
    printf("Enter how many rows you want: ");
@@ -7,10 +7,9 @@ int main()
    for(i=1;i<=n;i++)
    {
       for(j=1;j<=(n-i);j++)
-         printf(" ");   // Only one space
+         printf(" ");   
       for(j=1;j<=i;j++)
-         printf("* ");  // one star and one space
+         printf("* ");  
       printf("\n");
    }
-   return 0;
 }
