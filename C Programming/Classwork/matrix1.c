@@ -2,7 +2,7 @@
 
 void main()
 {
-	int matrix1[4][4],matrix2;
+	int matrix1[4][4],matrix2[2][2];
 	int i,j;
 	
 	printf("**********enter values********");

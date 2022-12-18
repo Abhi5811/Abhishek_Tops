@@ -6,22 +6,21 @@ int main() {
   printf("Enter the number of columns (between 1 and 100): ");
   scanf("%d", &c);
 
-  printf("\nEnter elements of 1st matrix:\n");
+  printf("\nEnter elements of 1st matrix:");
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
       printf("Enter element a%d%d: ", i + 1, j + 1);
       scanf("%d", &a[i][j]);
-      printf("\n\n");
     }
     
-    printf("\nEnter elements of 1st matrix:\n");
+    printf("Enter elements of 1st matrix:");
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
-      printf("Enter element a%d: ", a[i],[j] );
+      printf("Enter element a%d: ", a[i][j] );
       printf("\n");
     }
 
-  printf("Enter elements of 2nd matrix:\n");
+  printf("\nEnter elements of 2nd matrix:\n");
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
       printf("Enter element b%d%d: ", i + 1, j + 1);

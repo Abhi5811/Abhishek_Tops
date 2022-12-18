@@ -164,7 +164,6 @@ void EventOrganizer::displayCostEstimation()
 int main()
 {
 	
-	int choice;
 	
 	cout<<"************Event Management System************\n\n";
 
