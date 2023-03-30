@@ -1,0 +1,11 @@
+Database-
+
+
+create database student_information;
+create table student
+(
+    S_Id int PRIMARY key AUTO_INCREMENT NOT NULL,
+    S_Name varchar(20) not null,
+    S_Email varchar(30) not null,
+    S_age int not null
+);
