@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+        <style>
+            .formcss{
+                width: 600px;height: auto;background-color: #d6d6e4;color: #0a194c;font-family: verdana;font-size: 12pt;border:#0a194c 2px ridge
+            }
+            .labelcss{
+                text-align: right;margin-right: 10px
+            }
+            .tbcss{
+                width: 220px;height: 27px;margin: 6px 0px 6px 15px;background-color:#f2f3ff;border: #0a194c 1px ridge;                
+            }
+        </style>
+    </head>
+    <body>
+        <div>                   
+        <form action="" method="Post">
+            <table class="formcss">
+                <tr>
+                    <td><h1>Login Details</h1></td>
+                </tr>
+                <tr>
+                    <td class="labelcss"><label>Email id:</label></td>
+                    <td><input type="text" name="email id" class="tbcss"/></td> 
+                    </tr> 
+                <tr>
+                    <td class="labelcss"><label class="labelcss">Password</label></td>
+                    <td><input type="password" name="password" class="tbcss"/></td> 
+                </tr>
+                <tr>
+                    <td class="labelcss"><label class="labelcss">Confirm password:</label></td>
+                    <td><input type="password" name="renter password" class="tbcss"/></td>
+                </tr>
+                <tr>
+                    <td><h2>Contact information</h2></td>
+                </tr>
+                <tr>
+                    <td class="labelcss"> <label class="labelcss">Name:</label></td>
+                    <td><input type="text" name="t1" class="tbcss"/></td>
+                </tr>
+                
+                <tr>
+                    <td class="labelcss"><label class="labelcss">City:</label></td>
+                    
+                    <td><select class="tbcss">
+                         <option>Select</option>
+            <option>---Top Metropolitan Cities---</option>
+            <option>Ahmedabad</option>
+            <option>Bengaluru/Bangalore</option>
+            <option>Chandigarh</option>
+            <option>Chennai</option>
+            <option>Delhi</option>
+            <option>Gurgaon</option>
+            <option>Hyderabad/Secunderabad</option>
+            <option>Kolkata</option>
+            <option>Mumbai</option>
+            <option>Noida</option>
+            <option>Pune</option>
+            <option>---Andhra pradesh---</option>
+            <option>Anantpur</option>
+            <option>Chitoor</option>
+            <option>Eluru</option>
+            <option>Gannavaram</option>
+            <option>Guntakal</option>
+            <option>Guntur</option>
+            <option>Kadapa/Cuddapah</option>
+            <option>Kakinada</option>
+            <option>Kurnool</option>
+            <option>Machilipatnam</option>
+            <option>Nandyal</option>
+            <option>Nellore</option>
+            <option>Ongole</option>
+            <option>Rajahmundry</option>
+            <option>Tada</option>
+            <option>Tirupati</option>
+            <option>Vijayawada</option>
+            <option>Visakhapatnam</option>
+            <option>Vizianagram</option>
+            <option>Andhra pradesh</option>
+            <option>---Arunanchal pradesh---</option>
+            <option>Itanagar</option>
+            <option>Arunanchal pradesh Other</option>
+            <option>---Assam---</option>
+            <option>Dibrugarh</option>
+            <option>Guwahati</option>
+            <option>Silchar</option>
+            <option>Assam-Other </option>
+            <option>---Bihar---</option>
+            <option>Bhagalpur</option>
+            <option>Patna</option>
+            <option>Bihar other</option>
+            <option>---Chhattisgarh---</option>
+            <option>Bhillai</option>
+            <option>Bilaspur</option>
+            <option>Korba</option>
+            <option>Raipur</option>
+            <option>Raigarh</option>
+            <option>Chhattisgarh other</option>
+            <option>---Goa---</option>
+            <option>Panjim/Panaji/</option>
+            <option>Vasco Da Gama</option>
+            <option>Goa-Other</option>
+            <option>---Gujrat---</option>
+            <option>Ahmedabad</option>
+            <option>Bhavnagar</option>
+            <option>Bhuj</option>
+            <option>Dahej</option>
+            <option>Gandhidham</option>
+            <option>Gandhinagar</option>
+            <option>Jamnagar</option>
+            <option>Kandla</option>
+            <option>Porbandar</option>
+            <option>Mehsana</option>
+            <option>Rajkot</option>
+            <option>Surat</option>
+            <option>Vadodara/Baroda</option>
+            <option>Valsad</option>
+            <option>Vapi</option>
+            <option>Gujrat-Other</option>
+            <option>---Haryana---</option>
+            <option>Ambala</option>
+            <option>Chandigarh</option>
+            <option>Faridabad</option>
+            <option>Gurgaon</option>
+            <option>Hisar</option>
+            <option>Karnal</option>
+            <option>Kurukshetra</option>
+            <option>Panipat</option>
+            <option>Rohtak</option>
+            <option>Haryana-Other</option>
+            <option>---Himachal pradesh---</option>
+            <option>Baddi</option>
+            <option>Dalhousie</option>
+            <option>Dharmasala</option>
+            <option>Kulu/Manali</option>
+            <option>Shimla</option>
+            <option>Himachal pradesh-Other</option>
+            <option>---Jharkhand---</option>
+            <option>Bokaro</option>
+            <option>Dhanbad</option>
+            <option>Jamshedpur</option>
+            <option>Ranchi</option>
+            <option>Jharkhand-Other</option>
+            <option>---Karnataka---</option>
+            <option>Bengaluru/Banglalore</option>
+            <option>Bellary</option>
+            <option>Bidar</option>
+            <option>Davangere</option>
+            <option>Dharwad</option>
+            <option>Gulbarga</option>
+            <option>Hubli</option>
+            <option>Kolar</option>
+            <option>Mangalore</option>
+            <option>Mysoru/Mysore</option>
+            <option>Karnataka Other </option>
+            <option>---Kerala---</option>
+            <option>Calicut</option>
+            <option>Cochin</option>
+            <option>Kottayam</option>
+            <option>Kerala Other</option>
+            <option>---Madhya Pradesh---</option>
+            <option>Bhopal</option>
+            <option>Gwalior</option>
+            <option>Indore</option>
+            <option>Ujjain</option>
+            <option>Jabalpur</option>
+            <option>---Maharastra---</option>
+            <option>Ahmednagar</option>
+            <option>Aurangabad</option>
+            <option>Mumbai</option>
+            <option>Nagpur</option>
+            <option>Navi Mumbai</option>
+            <option>Pune</option>
+            <option>Maharastra Other</option>
+            <option>---Rajasthan---</option>
+            <option>Udaipur</option>
+            <option>Jaipur</option>
+            <option>Jodhpur</option>
+            <option>Rajasthan Other</option>
+            <option>---Uttar Pradesh---</option>
+            <option>Agra</option>
+            <option>Aligarh</option>
+            <option>Allahabad</option>
+            <option>Bareilly</option>
+            <option>Ghaziabad</option>
+            <option>Gorakhpur</option>
+            <option>Greater Noida</option>
+            <option>Kanpur</option>
+            <option>Lucknow</option>
+            <option>Meerut</option>
+            <option>Noida</option>
+            <option>Uttar Pradesh Other</option>
+                      
+                            
+                   </select></td> 
+                  
+                   
+                </tr>
+                <tr>
+                    <td class="labelcss"> <label class="labelcss">State:</label></td>
+                    
+                    <td><select class="tbcss">
+                    <option>Madhya Pradesh </option>
+                    <option>Gujrat</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Maharastra</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunanchal Pradesh</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Chhattisgarh</option>
+                    <option>Assam</option>
+                    
+                    
+                </select>
+                </td        
+                </tr>
+                <tr>
+                <td class="labelcss"> <label class="labelcss">Mobile No:</label></td>
+                    <td><input type="number" name="number" class="tbcss"/></td> 
+                 </tr>
+                 <tr>
+                     <td><h4>Current Employment Details:</h4></td>
+                 </tr> 
+                 <tr>
+                 <td class="labelcss"><label class="labelcss">Work experience:</label></td>
+                    <td><select class="tbcss">
+                        
+                     <option>Fresher</option>
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                     <option>6</option>
+                     <option>7</option>
+                     <option>8</option>
+                     <option>9</option>
+                     <option>9</option>
+                     <option>10</option>
+                     <option>11</option>
+                     <option>12</option> 
+                     <option>13</option>
+                     <option>14</option>
+                     <option>15</option>
+                     <option>16</option>
+                     <option>17</option>
+                     <option>18</option>
+                     <option>19</option>
+                     <option>20</option>
+                     <option>21</option>
+                     <option>22</option>
+                     <option>23</option>
+                     <option>24</option>
+                     <option>25</option>
+                     <option>26</option>
+                     <option>27</option>
+                     <option>28</option>
+                     <option>29</option>
+                     <option>30</option>
+                     <option>30+</option>
+                         </select></td>
+                    <tr>
+                        <td class="labelcss"> <label class="labelcss">Key skills:</label></td>
+                         <td> <input type="text" value="Please enter your areas of expertise/Specialiazation"></td>   
+                      </tr> 
+                      <tr>
+                          <td class="labelcss"> <label class="labelcss">Basic Education:</label></td>
+                          <td><select class="tbcss">
+                                  <option>Not persuing Graduation</option>
+                                  <option>B.A</option>
+                                  <option>B.Arch</option>
+                                  <option>BCA</option>
+                                  <option>B.B.A</option>
+                                  <option>B.Com</option>
+                                  <option>BED</option>
+                                  <option>BDS</option>
+                                  <option>BHM</option>
+                                  <option>B.Pharma</option>
+                                  <option>B.Sc</option>
+                                  <option>B.tech/B.E.</option>
+                                  <option>LLB</option>
+                                  <option>MBBS</option>
+                                  <option>Diploma</option>
+                                  <option>Bvsc</option>
+                                  <option>Other</option>
+                               </select>
+                      </tr>  
+                      <tr>
+                          <td><input type="text" name="name"></td>    
+                      </tr>
+                      <tr>
+                          <td><input type="button" value="Add Masters Education"></td>    
+                          
+                      </tr>  
+                      <tr>
+                          <td><input type="button" value="Add certification Courses"></td>
+                      </tr>
+                      <tr>
+                        <td class="labelcss"> <label class="labelcss">Upload Resume:</label></td>  
+                        <td><input type="file" name="upload"></td>
+                      </tr> 
+                      <td><input type="button" value="Join Quickjobseekers.com" </td>
+                      <tr>
+                          <td><td><input type="button" value="Submit"></td></td>
+                      </tr>
+                      
+            </table>
+        </div>
+            
+        </form>
+    </body>
+</html>
